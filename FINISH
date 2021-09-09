@@ -5,10 +5,10 @@
 # description:  Let's apply what we've learnt about overriding and extending
 #               Discourse javascript to a new example. Remember what we've covered:
 #
-#               1. Finding the relevant javascript
-#               2. Using the ``modifyClass`` and ``reopenWidget`` methods
-#               3. Preserving existing functionality
-#               4. Reusing existing functionality
+#               1. Finding the relevant javascript<br>
+#               2. Using the ``modifyClass`` and ``reopenWidget`` methods<br>
+#               3. Preserving existing functionality<br>
+#               4. Reusing existing functionality<br>
 #
 # exercise:     Modify and extend the javascript and css so that whenever someone
 #               "likes" a post, the entire post turns pink. If they un-like
