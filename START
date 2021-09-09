@@ -1,0 +1,65 @@
+# learning_course
+# key:         discourse_theme_development
+# /learning_course
+
+# learning_unit
+# course:       discourse_theme_development
+# number:       7
+# title:        Working with Javascript (Part 2)
+# description:  This is the second of three units about working with Javascript in 
+#               Discourse themes. This is the seventh unit in the Discourse Theme 
+#               Development course. When you're ready to start, clone this unit 
+#               theme and start watching it on the [Discourse Theme Creator](https://theme-creator.discourse.org).
+# references:   https://github.com/pavilionedu/discourse-theme-javascript-two
+#               https://meta.discourse.org/t/110448
+# /learning_unit
+
+# learning_step
+# unit:         discourse_theme_development.7
+# number:       1
+# title:        Modifying and extending functionality in Discourse
+# description:  You may recall in the previous unit we discussed three different
+#               reasons why you might be working with javascript in a Discourse
+#               theme. In this unit we're going to look at the second: modifying 
+#               and extending Discourse functionality.
+#
+#               For an example of a component that makes considerable changes to
+#               the Discourse client javascript, check out the Discourse Loading
+#               Slider component.
+#
+# references:   https://github.com/discourse/discourse-loading-slider.git
+# /learning_step
+
+
+# learning_step
+# unit:         discourse_theme_development.7
+# number:       2
+# title:        Do some background work
+# description:  If you're looking to do a lot of modification or extension of 
+#               Discourse functionality in a theme component, you'll also need 
+#               to understand how the Discourse client uses Ember.js and virtual
+#               DOM widgets. It's possible to avoid those subjects if you're just
+#               interacting with Discourse's APIs or event-bus, however if you're
+#               modifying Discourse javascript, you'll need to know how it works
+#               on a structural level at some point.
+#
+#               If that applies to you, now would be a good time to complete a 
+#               tutorial on Ember, particularly if you've never worked with an 
+#               MVC javascript framework before (or you don't know what an MVC 
+#               framework is). You'll find a few Ember tutorials linked in the 
+#               references. If you find any better tutorials, or you'd like help 
+#               with them, respond in the comments.
+#
+#               You'll also find an overview of how Discourse uses Virtual DOM
+#               widgets in the references. If you've worked with React.js before
+#               wirtual DOM widgets should make sense to you.
+#
+#               Knowledge of Ember.js and virtual DOM widgets won't be assumed in
+#               this course, but it will help you complete it. If you're looking
+#               to extend or modify Discourse javascript using theme components
+#               for use in a production site it's required background work.
+# next_step:    javascripts/discourse/api-initializers/theme-javascript-two.js
+# references:   https://guides.emberjs.com/release/tutorial
+#               https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Ember_getting_started
+#               https://meta.discourse.org/t/a-tour-of-how-the-widget-virtual-dom-code-in-discourse-works/40347
+# /learning_step

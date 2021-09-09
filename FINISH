@@ -1,0 +1,32 @@
+# learning_step
+# unit:         discourse_theme_development.7
+# number:       12
+# title:        Unit exercise
+# description:  Let's apply what we've learnt about overriding and extending
+#               Discourse javascript to a new example. Remember what we've covered:
+#
+#               1. Finding the relevant javascript
+#               2. Using the ``modifyClass`` and ``reopenWidget`` methods
+#               3. Preserving existing functionality
+#               4. Reusing existing functionality
+#
+# exercise:     Modify and extend the javascript and css so that whenever someone
+#               "likes" a post, the entire post turns pink. If they un-like
+#               the post, the post should go back to its normal color. Record
+#               your working code and post the recording in a comment.
+#
+#               This may seem complicated, but focus on what we've learnt and 
+#               try to ignore the complexity in the code you don't yet understand.
+#               The solution includes two api functions of a few lines each.
+# review:       peer
+# mark:         pass_change_fail
+# /learning_step
+
+# learning_step
+# unit:         discourse_theme_development.7
+# number:       13
+# title:        Unit video
+# description:  This is where video demonstrating how to complete the unit goes
+#               when you're taking the unit on https://education.thepavilion.io
+# visibility:   hidden:until_previous_completed
+# /learning_step
