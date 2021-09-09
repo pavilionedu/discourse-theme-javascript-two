@@ -1,9 +1,8 @@
 {
-  "about_url": null,
-  "license_url": null,
-  "assets": {
-  },
+  "about_url": "https://github.com/pavilionedu/discourse-theme-javascript-two.git",
+  "license_url": "https://github.com/pavilionedu/discourse-theme-javascript-two/blob/master/LICENSE.txt",
   "name": "Working with Javascript (Part 2)",
-  "color_schemes": {
-  }
+  "authors": "Angus McLeod",
+  "theme_version": "0.1.0",
+  "modifiers": {}
 }
