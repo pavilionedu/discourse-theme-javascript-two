@@ -255,6 +255,7 @@ export default apiInitializer("0.8", (api) => {
 * references:  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 * next_step:   FINISH
 */
+/* /learning_step */
 
 /* learning_step
 * unit:        discourse_theme_development.7
@@ -319,6 +320,7 @@ export default apiInitializer("0.8", (api) => {
 *              data down and actions up.
 * references:  https://meta.discourse.org/t/a-tour-of-how-the-widget-virtual-dom-code-in-discourse-works/40347
 */
+/* /learning_step */
 
 /* learning_step
 * unit:        discourse_theme_development.7
@@ -345,4 +347,4 @@ export default apiInitializer("0.8", (api) => {
 *              which is then run.
 * next_step:   FINISH
 */
-
+/* /learning_step */
