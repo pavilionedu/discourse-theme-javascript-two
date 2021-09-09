@@ -121,10 +121,12 @@ export default apiInitializer("0.8", (api) => {
 *              modify most of the javascript methods in the Discourse Ember client.
 *              This includes any method in a file in any of these folders:
 *
+*              ```
 *              - components
 *              - controllers
 *              - models
 *              - routes
+*              ```
 *
 *              The way you modify methods in any of those types of classes is by
 *              passing a string with the class type, a colon and the class name
@@ -265,9 +267,11 @@ export default apiInitializer("0.8", (api) => {
 *              point you'll need to modify or extend a virtual DOM widget. The
 *              main areas of the client that use widgets are
 *
+*              ```
 *              - Header
 *              - Posts
 *              - Timeline
+*              ```
 *
 *              Before continuing have a read of the description of Discourse's
 *              virtual DOM widgets in the topic in the references. Don't worry if
@@ -305,6 +309,7 @@ export default apiInitializer("0.8", (api) => {
 *              Widgets are "attached" to parent widgets in a hierarchical chain.
 *              The post widget hierarchy looks a bit like this:
 *
+*              ```
 *              - post
 *                - post-article
 *                  - post-avatar
@@ -314,6 +319,7 @@ export default apiInitializer("0.8", (api) => {
 *                    - actions-summary
 *                    - post-links
 *                    etc
+*              ```
 *
 *              There's a few different ways this hierarchy is relevant when you're
 *              working with widgets. We'll cover the main two in the next step:
