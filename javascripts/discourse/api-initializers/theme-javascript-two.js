@@ -309,15 +309,13 @@ export default apiInitializer("0.8", (api) => {
 *              Widgets are "attached" to parent widgets in a hierarchical chain.
 *              The post widget hierarchy looks a bit like this:
 *
-*              - post</br>
-*                - post-article</br>
-*                  - post-avatar</br>
-*                  - post-body</br>
-*                    - post-meta-data</br>
-*                    - post-contents</br>
-*                    - actions-summary</br>
-*                    - post-links</br>
-*                    etc</br>
+*              ```
+*              - post
+*              - post-article
+*              - post-avatar & post-body
+*              - post-meta-data & post-contents
+*              etc
+*              ```
 *
 *              There's a few different ways this hierarchy is relevant when you're
 *              working with widgets. We'll cover the main two in the next step:
